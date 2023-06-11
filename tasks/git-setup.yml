@@ -1,0 +1,28 @@
+- name: Git personal setup email
+  git_config:
+    name: user.email
+    scope: global
+    value: "robertogoam@disroot.org"
+  tags:
+  - git-personal
+- name: Git personal setup name
+  git_config:
+    name: user.name
+    scope: global
+    value: "Roberto Gomez"
+  tags:
+  - git-personal
+- name: Europcar
+  git_config:
+    name: user.email
+    scope: global
+    value: "roberto.gomez@europcar.com"
+  tags:
+  - git-europcar
+- name: Git personal setup name
+  git_config:
+    name: user.name
+    scope: global
+    value: "Roberto Gomez"
+  tags:
+  - git-europcar
